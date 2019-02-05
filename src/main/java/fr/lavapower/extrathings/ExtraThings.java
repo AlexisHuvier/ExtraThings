@@ -56,6 +56,5 @@ public class ExtraThings
     public void onFMLFingerPrintViolation(FMLFingerprintViolationEvent event)
     {
         System.out.println("Modification de la signature.");
-        Minecraft.getMinecraft().shutdown();
     }
 }
