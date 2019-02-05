@@ -3,6 +3,7 @@ package fr.lavapower.extrathings;
 import org.apache.logging.log4j.Logger;
 
 import fr.lavapower.extrathings.commands.CommandInfoExtraThings;
+import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -54,6 +55,7 @@ public class ExtraThings
     @EventHandler
     public void onFMLFingerPrintViolation(FMLFingerprintViolationEvent event)
     {
-        assert false : "Signature non valide";
+        System.out.println("Modification de la signature.");
+        Minecraft.getMinecraft().shutdown();
     }
 }
