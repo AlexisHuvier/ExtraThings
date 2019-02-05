@@ -1,0 +1,8 @@
+{
+   "variants": {
+       "facing=north": { "model": "extrathings:chair_block" },
+       "facing=south": { "model": "extrathings:chair_block", "y": 180 },
+       "facing=west":  { "model": "extrathings:chair_block", "y": 270 },
+       "facing=east":  { "model": "extrathings:chair_block", "y": 90 }
+   }
+}

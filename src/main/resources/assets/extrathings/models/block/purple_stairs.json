@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "extrathings:blocks/purple_block",
+        "top": "extrathings:blocks/purple_block",
+        "side": "extrathings:blocks/purple_block"
+    }
+}

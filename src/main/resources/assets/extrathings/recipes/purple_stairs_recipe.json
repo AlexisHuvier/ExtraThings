@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+    "#  ",
+    "## ",
+    "###"
+    ],
+    "key": {
+    "#": {
+        "type": "minecraft:item",
+        "item": "extrathings:color_block",
+        "data": 13
+    }
+    },
+    "result": {
+        "type": "minecraft:item_nbt",
+        "item": "extrathings:purple_stairs",
+        "count": 4
+    }
+}

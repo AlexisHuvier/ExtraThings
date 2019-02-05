@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "extrathings:blocks/light_blue_block"
+    }
+}

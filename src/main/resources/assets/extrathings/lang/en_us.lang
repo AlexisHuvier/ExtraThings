@@ -1,0 +1,39 @@
+itemGroup.extrathings=Extra Things
+command.infoextrathings.message=Mod created by LavaPower with many blocks, items and features
+
+tile.extrathings.table_block.name=Table
+tile.extrathings.chair_block.name=Chair
+
+tile.extrathings.white_stairs.name=White Stairs
+tile.extrathings.light_gray_stairs.name=Light Gray Stairs
+tile.extrathings.gray_stairs.name=Gray Stairs
+tile.extrathings.black_stairs.name=Black Stairs
+tile.extrathings.brown_stairs.name=Brown Stairs
+tile.extrathings.red_stairs.name=Red Stairs
+tile.extrathings.orange_stairs.name=Orange Stairs
+tile.extrathings.yellow_stairs.name=Yellow Stairs
+tile.extrathings.lime_stairs.name=Lime Stairs
+tile.extrathings.green_stairs.name=Green Stairs
+tile.extrathings.cyan_stairs.name=Cyan Stairs
+tile.extrathings.light_blue_stairs.name=Light Blue Stairs
+tile.extrathings.blue_stairs.name=Blue Stairs
+tile.extrathings.purple_stairs.name=Purple Stairs
+tile.extrathings.magenta_stairs.name=Magenta Stairs
+tile.extrathings.pink_stairs.name=Pink Stairs
+
+extrathings.color_block.name=White Block
+extrathings.color_block_v1.name=Light Gray Block
+extrathings.color_block_v2.name=Gray Block
+extrathings.color_block_v3.name=Black Block
+extrathings.color_block_v4.name=Brown Block
+extrathings.color_block_v5.name=Red Block
+extrathings.color_block_v6.name=Orange Block
+extrathings.color_block_v7.name=Yellow Block
+extrathings.color_block_v8.name=Lime Block
+extrathings.color_block_v9.name=Green Block
+extrathings.color_block_v10.name=Cyan Block
+extrathings.color_block_v11.name=Light Blue Block
+extrathings.color_block_v12.name=Blue Block
+extrathings.color_block_v13.name=Purple Block
+extrathings.color_block_v14.name=Magenta Block
+extrathings.color_block_v15.name=Pink Block

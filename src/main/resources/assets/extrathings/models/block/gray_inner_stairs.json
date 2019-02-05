@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "extrathings:blocks/gray_block",
+        "top": "extrathings:blocks/gray_block",
+        "side": "extrathings:blocks/gray_block"
+    }
+}

@@ -1,0 +1,39 @@
+itemGroup.extrathings=Extra Things
+command.infoextrathings.message=Mod créé par LavaPower incluant divers blocs, items et fonctionnalitées
+
+tile.extrathings.table_block.name=Table
+tile.extrathings.chair_block.name=Chaise
+
+tile.extrathings.white_stairs.name=Escalier Blanc
+tile.extrathings.light_gray_stairs.name=Escalier Gris Clair
+tile.extrathings.gray_stairs.name=Escalier Gris
+tile.extrathings.black_stairs.name=Escalier Noir
+tile.extrathings.brown_stairs.name=Escalier Marron
+tile.extrathings.red_stairs.name=Escalier Rouge
+tile.extrathings.orange_stairs.name=Escalier Orange
+tile.extrathings.yellow_stairs.name=Escalier Jaune
+tile.extrathings.lime_stairs.name=Escalier Vert Clair
+tile.extrathings.green_stairs.name=Escalier Vert
+tile.extrathings.cyan_stairs.name=Escalier Cyan
+tile.extrathings.light_blue_stairs.name=Escalier Blue Clair
+tile.extrathings.blue_stairs.name=Escalier Bleu
+tile.extrathings.purple_stairs.name=Escalier Violet
+tile.extrathings.magenta_stairs.name=Escalier Magenta
+tile.extrathings.pink_stairs.name=Escalier Rose
+
+extrathings.color_block.name=Bloc Blanc
+extrathings.color_block_v1.name=Bloc Gris Clair
+extrathings.color_block_v2.name=Bloc Gris
+extrathings.color_block_v3.name=Bloc Noir
+extrathings.color_block_v4.name=Bloc Marron
+extrathings.color_block_v5.name=Bloc Rouge
+extrathings.color_block_v6.name=Bloc Orange
+extrathings.color_block_v7.name=Bloc Jaune
+extrathings.color_block_v8.name=Bloc Vert Clair
+extrathings.color_block_v9.name=Bloc Vert
+extrathings.color_block_v10.name=Bloc Cyan
+extrathings.color_block_v11.name=Bloc Bleu Clair
+extrathings.color_block_v12.name=Bloc Bleu
+extrathings.color_block_v13.name=Bloc Violet
+extrathings.color_block_v14.name=Bloc Magenta
+extrathings.color_block_v15.name=Bloc Rose

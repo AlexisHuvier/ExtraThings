@@ -1,0 +1,52 @@
+{
+    "variants": {
+        "variant=white": {
+            "model": "extrathings:color_block"
+        },
+        "variant=light_gray": {
+            "model": "extrathings:color_block_v1"
+        },
+        "variant=gray": {
+            "model": "extrathings:color_block_v2"
+        },
+        "variant=black": {
+            "model": "extrathings:color_block_v3"
+        },
+        "variant=brown": {
+            "model": "extrathings:color_block_v4"
+        },
+        "variant=red": {
+            "model": "extrathings:color_block_v5"
+        },
+        "variant=orange": {
+            "model": "extrathings:color_block_v6"
+        },
+        "variant=yellow": {
+            "model": "extrathings:color_block_v7"
+        },
+        "variant=lime": {
+            "model": "extrathings:color_block_v8"
+        },
+        "variant=green": {
+            "model": "extrathings:color_block_v9"
+        },
+        "variant=cyan": {
+            "model": "extrathings:color_block_v10"
+        },
+        "variant=light_blue": {
+            "model": "extrathings:color_block_v11"
+        },
+        "variant=blue": {
+            "model": "extrathings:color_block_v12"
+        },
+        "variant=purple": {
+            "model": "extrathings:color_block_v13"
+        },
+        "variant=magenta": {
+            "model": "extrathings:color_block_v14"
+        },
+        "variant=pink": {
+            "model": "extrathings:color_block_v15"
+        }
+    }
+}

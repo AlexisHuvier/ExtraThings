@@ -1,0 +1,16 @@
+[
+{
+  "modid": "extrathings",
+  "name": "Extra Things",
+  "description": "Un mod qui rajoute des blocks et items en tout genre.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LavaPower"],
+  "credits": "MFF pour leurs tutoriels",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

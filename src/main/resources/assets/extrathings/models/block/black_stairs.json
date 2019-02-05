@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "extrathings:blocks/black_block",
+        "top": "extrathings:blocks/black_block",
+        "side": "extrathings:blocks/black_block"
+    }
+}
