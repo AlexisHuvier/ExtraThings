@@ -1,12 +1,15 @@
 package fr.lavapower.extrathings;
 
 import fr.lavapower.extrathings.blocks.ExtraThingsBlocks;
+import fr.lavapower.extrathings.entities.EntityBlockSittable;
 import fr.lavapower.extrathings.items.ExtraThingsItems;
 import fr.lavapower.extrathings.tileentities.ExtraThingsTileEntities;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 
 public class RegisteringHandler
 {
@@ -60,5 +63,12 @@ public class RegisteringHandler
                 ExtraThingsItems.BLOCK_TABLE,
                 ExtraThingsItems.BLOCK_CHAIR,
                 ExtraThingsItems.BLOCK_CUPBOARD);
+    }
+
+    public static void registerEntities()
+    {
+
+        EntityRegistry.registerModEntity(new ResourceLocation(ExtraThings.MODID, "entity_block_sittable"), EntityBlockSittable.class, "entityblocksittable", 100, ExtraThings.instance, 0, 10, true);
+        
     }
 }

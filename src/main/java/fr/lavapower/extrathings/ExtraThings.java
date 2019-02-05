@@ -44,6 +44,7 @@ public class ExtraThings
     public void init(FMLInitializationEvent event)
     {
         proxy.init();
+        RegisteringHandler.registerEntities();
     }
 
     @EventHandler

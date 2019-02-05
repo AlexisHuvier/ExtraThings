@@ -112,31 +112,6 @@ public class CupboardBlock extends SimpleOrientableBlock
         else
         {
             ILockableContainer ilockablecontainer = (TileEntityCupboard)tileentity;
-
-            for(EnumFacing enumfacing : EnumFacing.Plane.HORIZONTAL)
-            {
-                BlockPos blockpos = pos.offset(enumfacing);
-                Block block = worldIn.getBlockState(blockpos).getBlock();
-
-                if(block == this)
-                {
-
-                    TileEntity tileentity1 = worldIn.getTileEntity(blockpos);
-
-                    if(tileentity1 instanceof TileEntityCupboard)
-                    {
-                        if(enumfacing != EnumFacing.WEST && enumfacing != EnumFacing.NORTH)
-                        {
-                            ilockablecontainer = new InventoryLargeChest("container.chestDouble", ilockablecontainer, (TileEntityCupboard)tileentity1);
-                        }
-                        else
-                        {
-                            ilockablecontainer = new InventoryLargeChest("container.chestDouble", (TileEntityCupboard)tileentity1, ilockablecontainer);
-                        }
-                    }
-                }
-            }
-
             return ilockablecontainer;
         }
     }
