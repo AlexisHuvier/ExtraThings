@@ -2,6 +2,7 @@ package fr.lavapower.extrathings;
 
 import fr.lavapower.extrathings.blocks.ExtraThingsBlocks;
 import fr.lavapower.extrathings.items.ExtraThingsItems;
+import fr.lavapower.extrathings.tileentities.ExtraThingsTileEntities;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -30,7 +31,10 @@ public class RegisteringHandler
                 ExtraThingsBlocks.MAGENTA_STAIRS,
                 ExtraThingsBlocks.PINK_STAIRS,
                 ExtraThingsBlocks.TABLE,
-                ExtraThingsBlocks.CHAIR);
+                ExtraThingsBlocks.CHAIR,
+                ExtraThingsBlocks.CUPBOARD);
+        
+        ExtraThingsTileEntities.registerTileEntities();
     }
     
     @SubscribeEvent
@@ -54,6 +58,7 @@ public class RegisteringHandler
                 ExtraThingsItems.BLOCK_MAGENTA_STAIRS,
                 ExtraThingsItems.BLOCK_PINK_STAIRS,
                 ExtraThingsItems.BLOCK_TABLE,
-                ExtraThingsItems.BLOCK_CHAIR);
+                ExtraThingsItems.BLOCK_CHAIR,
+                ExtraThingsItems.BLOCK_CUPBOARD);
     }
 }

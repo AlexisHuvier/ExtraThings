@@ -51,6 +51,7 @@ public class ExtraThingsItems
     public static final Item BLOCK_PINK_STAIRS = new ItemBlock(ExtraThingsBlocks.PINK_STAIRS).setRegistryName(ExtraThingsBlocks.PINK_STAIRS.getRegistryName());
     public static final Item BLOCK_TABLE = new ItemBlock(ExtraThingsBlocks.TABLE).setRegistryName(ExtraThingsBlocks.TABLE.getRegistryName());
     public static final Item BLOCK_CHAIR = new ItemBlock(ExtraThingsBlocks.CHAIR).setRegistryName(ExtraThingsBlocks.CHAIR.getRegistryName());
+    public static final Item BLOCK_CUPBOARD = new ItemBlock(ExtraThingsBlocks.CUPBOARD).setRegistryName(ExtraThingsBlocks.CUPBOARD.getRegistryName());
     
     
     public static void setItemName(Item item, String name)
@@ -82,6 +83,7 @@ public class ExtraThingsItems
         registerModel(BLOCK_PINK_STAIRS, 0);
         registerModel(BLOCK_TABLE, 0);
         registerModel(BLOCK_CHAIR, 0);
+        registerModel(BLOCK_CUPBOARD, 0);
     }
 
     @SideOnly(Side.CLIENT)

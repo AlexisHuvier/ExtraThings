@@ -25,7 +25,7 @@ public class ExtraThingsBlocks
     public static final Block PINK_STAIRS = new SimpleStairs(COLOR_BLOCK.getDefaultState(), "pink_stairs");
     public static final Block TABLE = new TableBlock(Material.WOOD);
     public static final Block CHAIR = new ChairBlock(Material.WOOD);
-    
+    public static final Block CUPBOARD = new CupboardBlock(Material.WOOD);
     
     public static void setBlockName(Block block, String name)
     {

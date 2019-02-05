@@ -1,0 +1,8 @@
+{
+   "variants": {
+       "facing=north": { "model": "extrathings:cupboard_block" },
+       "facing=south": { "model": "extrathings:cupboard_block", "y": 180 },
+       "facing=west":  { "model": "extrathings:cupboard_block", "y": 270 },
+       "facing=east":  { "model": "extrathings:cupboard_block", "y": 90 }
+   }
+}
