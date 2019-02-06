@@ -2,10 +2,12 @@ itemGroup.extrathings=Extra Things
 command.infoextrathings.message=Mod créé par LavaPower incluant divers blocs, items et fonctionnalitées
 
 container.extrathings.cupboard.name=Placard
+container.extrathings.trash.name=Poubelle
 
 tile.extrathings.table_block.name=Table
 tile.extrathings.chair_block.name=Chaise
 tile.extrathings.cupboard_block.name=Placard
+tile.extrathings.trash_block.name=Poubelle
 
 tile.extrathings.white_stairs.name=Escalier Blanc
 tile.extrathings.light_gray_stairs.name=Escalier Gris Clair

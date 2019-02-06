@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+    {
+        "type": "minecraft:item",
+        "item": "minecraft:iron_ingot"
+    },
+    {
+        "type": "minecraft:item",
+        "item": "minecraft:iron_ingot"
+    }
+    ],
+    "result": {
+        "type": "minecraft:item_nbt",
+        "item": "extrathings:trash_block",
+        "count": 2
+    }
+}

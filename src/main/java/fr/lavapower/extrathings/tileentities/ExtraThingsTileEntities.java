@@ -9,6 +9,7 @@ public class ExtraThingsTileEntities
 {
     public static void registerTileEntities() {
         registerTileEntity(TileEntityCupboard.class, "cupboard_block");
+        registerTileEntity(TileEntityTrash.class, "trash_block");
     }
 
     public static void registerTileEntity(final Class<? extends TileEntity> tileEntityClass, final String name) {

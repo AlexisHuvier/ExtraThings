@@ -2,10 +2,12 @@ itemGroup.extrathings=Extra Things
 command.infoextrathings.message=Mod created by LavaPower with many blocks, items and features
 
 container.extrathings.cupboard.name=Cupboard
+container.extrathings.trash.name=Trash
 
 tile.extrathings.table_block.name=Table
 tile.extrathings.chair_block.name=Chair
 tile.extrathings.cupboard_block.name=Cupboard
+tile.extrathings.trash_block.name=Trash
 
 tile.extrathings.white_stairs.name=White Stairs
 tile.extrathings.light_gray_stairs.name=Light Gray Stairs

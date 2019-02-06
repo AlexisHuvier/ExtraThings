@@ -3,6 +3,7 @@ package fr.lavapower.extrathings.items;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemSlab;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -52,7 +53,7 @@ public class ExtraThingsItems
     public static final Item BLOCK_TABLE = new ItemBlock(ExtraThingsBlocks.TABLE).setRegistryName(ExtraThingsBlocks.TABLE.getRegistryName());
     public static final Item BLOCK_CHAIR = new ItemBlock(ExtraThingsBlocks.CHAIR).setRegistryName(ExtraThingsBlocks.CHAIR.getRegistryName());
     public static final Item BLOCK_CUPBOARD = new ItemBlock(ExtraThingsBlocks.CUPBOARD).setRegistryName(ExtraThingsBlocks.CUPBOARD.getRegistryName());
-    
+    public static final Item BLOCK_TRASH = new ItemBlock(ExtraThingsBlocks.TRASH).setRegistryName(ExtraThingsBlocks.TRASH.getRegistryName());
     
     public static void setItemName(Item item, String name)
     {
@@ -84,6 +85,7 @@ public class ExtraThingsItems
         registerModel(BLOCK_TABLE, 0);
         registerModel(BLOCK_CHAIR, 0);
         registerModel(BLOCK_CUPBOARD, 0);
+        registerModel(BLOCK_TRASH, 0);
     }
 
     @SideOnly(Side.CLIENT)

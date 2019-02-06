@@ -35,7 +35,8 @@ public class RegisteringHandler
                 ExtraThingsBlocks.PINK_STAIRS,
                 ExtraThingsBlocks.TABLE,
                 ExtraThingsBlocks.CHAIR,
-                ExtraThingsBlocks.CUPBOARD);
+                ExtraThingsBlocks.CUPBOARD,
+                ExtraThingsBlocks.TRASH);
         
         ExtraThingsTileEntities.registerTileEntities();
     }
@@ -62,13 +63,13 @@ public class RegisteringHandler
                 ExtraThingsItems.BLOCK_PINK_STAIRS,
                 ExtraThingsItems.BLOCK_TABLE,
                 ExtraThingsItems.BLOCK_CHAIR,
-                ExtraThingsItems.BLOCK_CUPBOARD);
+                ExtraThingsItems.BLOCK_CUPBOARD,
+                ExtraThingsItems.BLOCK_TRASH);
     }
 
     public static void registerEntities()
     {
 
         EntityRegistry.registerModEntity(new ResourceLocation(ExtraThings.MODID, "entity_block_sittable"), EntityBlockSittable.class, "entityblocksittable", 100, ExtraThings.instance, 0, 10, true);
-        
     }
 }
