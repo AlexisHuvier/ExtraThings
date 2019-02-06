@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+    "###",
+    "# #",
+    "#I#"
+    ],
+    "key": {
+    "#": {
+        "type": "minecraft:item",
+        "item": "minecraft:log",
+        "data": 0
+    },
+    "I": {
+        "type": "minecraft:item",
+        "item": "minecraft:planks",
+        "data": 0
+    }
+    },
+    "result": {
+        "type": "minecraft:item_nbt",
+        "item": "extrathings:cupboard_block",
+        "count": 2
+    }
+}
